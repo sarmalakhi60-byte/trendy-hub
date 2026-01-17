@@ -1,15 +1,48 @@
-<h2>Trendy Hub</h2>
-
-<p>Welcome to my store</p>
-
+<!DOCTYPE html><html>
+<head>
+<title>Trendy Hub</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{font-family:Arial;margin:0;background:#f2f2f2}
+header{background:white;padding:15px;text-align:center;font-size:22px;font-weight:bold}
+.box{background:white;margin:10px;padding:10px;border-radius:8px}
+button{background:black;color:white;padding:10px;width:100%;border:none;border-radius:5px;margin-top:5px}
+img{width:100%;border-radius:6px}
+.title{font-weight:bold;margin-top:5px}
+.price{color:green;font-weight:bold}
+</style>
+</head><body><header>Trendy Hub</header><h3 style="padding:10px">Oversized T-Shirts</h3><div class="box">
+<img src="https://via.placeholder.com/400x400">
+<div class="title">Black Oversized Tee</div>
+<div class="price">₹399</div>
+<button onclick="buy('Black Oversized Tee',399)">Buy Now</button>
+</div><div class="box">
+<img src="https://via.placeholder.com/400x400">
+<div class="title">Anime Print Oversized</div>
+<div class="price">₹399</div>
+<button onclick="buy('Anime Print Oversized',399)">Buy Now</button>
+</div><h3 style="padding:10px">Sneakers</h3><div class="box">
+<img src="https://via.placeholder.com/400x400">
+<div class="title">White Casual Sneakers</div>
+<div class="price">₹999</div>
+<button onclick="buy('White Casual Sneakers',999)">Buy Now</button>
+</div><div class="box">
+<img src="https://via.placeholder.com/400x400">
+<div class="title">Black Street Sneakers</div>
+<div class="price">₹999</div>
+<button onclick="buy('Black Street Sneakers',999)">Buy Now</button>
+</div><div class="box">
+<h3>Payment & Delivery</h3>
 <p>UPI: souravsarma60@okaxis</p>
-<p>Delivery: 5-7 days</p>
-
-<button onclick="buy()">Buy Now</button>
-
-<script>
-function buy(){
-alert("Pay to UPI and send screenshot on Instagram @sizuka4_23");
+<p>Delivery: 5–7 Days</p>
+<p>Order on Instagram: @sizuka4_23</p>
+</div><script>
+function buy(name,price){
+alert("Product: "+name+"
+Pay: ₹"+price+"
+UPI: souravsarma60@okaxis
+Send screenshot + address on Instagram @sizuka4_23");
 window.open("https://www.instagram.com/sizuka4_23");
 }
-</script>
+</script></body>
+</html>
